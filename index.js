@@ -33,7 +33,7 @@ function requestLetter() {
 			var checkWin = newWord.displayWord.join("");
 			console.log(checkWin);
 			if (count === 0) {
-				console.log('You are out of guesses, you lose!')
+				console.log(`You are out of guesses, you lose!\nThe word was '${wordGuess}'`)
 			} else if (!(checkWin.includes('_'))) {
 				console.log("You win!");
 			} else {
