@@ -11,7 +11,7 @@ function selectWord() {
 		j = Math.floor(Math.random() * (i + 1));
 		x = wordArray[i];
 		wordArray[i] = wordArray[j];
-		wordArray[j] = x
+		wordArray[j] = x;
 	}
 	wordGuess = wordArray[j];
 	newWord = new Word(wordGuess);
@@ -30,7 +30,7 @@ function requestLetter() {
 			console.log(`You have ${count} guesses remaining!`)
 			newWord.checkGuess(inquirerResponse.guess);
 			newWord.display();
-			var checkWin = newWord.displayWord.join("");
+			var checkWin = newWord.displayWord.join(" ");
 			console.log(checkWin);
 			if (count === 0) {
 				console.log(`You are out of guesses, you lose!\nThe word was '${wordGuess}'`)
