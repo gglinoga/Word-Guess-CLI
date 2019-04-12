@@ -1,6 +1,6 @@
 var Word = require('./Word.js');
 var inquirer = require('inquirer');
-wordArray = ['black', 'white', 'yellow', 'brown', 'red', 'chartreuse', 'cerulean blue'];
+var wordArray = ['black', 'white', 'yellow', 'brown', 'red', 'chartreuse', 'cerulean blue', 'gray', 'orange', 'purple', 'violet', 'sarcoline', 'xanadu', 'vermillion'];
 var newWord;
 var wordGuess;
 var count = 10;
