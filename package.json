@@ -1,0 +1,31 @@
+{
+  "name": "word-guess-cli",
+  "version": "1.0.0",
+  "description": "Word Guess Game with command line interface.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gglinoga/Word-Guess-CLI.git"
+  },
+  "keywords": [
+    "word",
+    "guess",
+    "game",
+    "node",
+    "CLI",
+    "constructor"
+  ],
+  "author": "Greg Glinoga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gglinoga/Word-Guess-CLI/issues"
+  },
+  "homepage": "https://github.com/gglinoga/Word-Guess-CLI#readme"
+}
